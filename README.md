@@ -56,12 +56,18 @@ This will display the JSON data in a tabular format:
 
 ```sql
 
-┌─────┬─────┬────────────────┐
-│ age │ city│ name           │
-├─────┼─────┼────────────────┤
-│ 30  │ New York   │ John   │
-│ 25  │ San Francisco  │ Alice  │
-└─────┴─────┴────────────────┘
+┌────────┬─────────────┬──────┬───────────────┬─────────┬─────────┐
+│ COLOR  │ PRICE       │ ID   │ MAKE          │ MODEL   │ YEAR    │
+├────────┼─────────────┼──────┼───────────────┼─────────┼─────────┤
+│ Blue   │ 25000000.00 │ 1.00 │ Toyota        │ Camry   │ 2022.00 │
+│ Red    │ 20000000.00 │ 2.00 │ Honda         │ Civic   │ 2021.00 │
+│ Silver │ 40000000.00 │ 3.00 │ Ford          │ Escape  │ 2023.00 │
+│ Black  │ 60000000.00 │ 4.00 │ Chevrolet     │ Malibu  │ 2022.00 │
+│ White  │ 15000000.59 │ 5.00 │ Volkswagen    │ Jetta   │ 2021.00 │
+│ Gray   │ 22000000.00 │ 6.00 │ BMW           │ X5      │ 2023.00 │
+│ Green  │ 40000000.00 │ 7.00 │ Mercedes-Benz │ C-Class │ 2022.00 │
+│ Silver │ 25000000.00 │ 8.00 │ Audi          │ A4      │ 2021.00 │
+└────────┴─────────────┴──────┴───────────────┴─────────┴─────────┘
 ```
 ### Customization
 You can customize the jtab tool to fit your needs. For example, you can modify the table style using the SetStyle method or add more formatting options.
