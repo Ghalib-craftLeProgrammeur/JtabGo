@@ -50,7 +50,7 @@ Assuming you have a JSON file named data.json with the following content:
 You can format it as a table like this:
 
 ```bash
-./jtab data.json
+jtab.exe data.json
 ```
 This will display the JSON data in a tabular format:
 
